@@ -1,0 +1,28 @@
+ffmpeg version N-88428-g88c7aa13dd Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth --enable-libmfx
+  libavutil      56.  0.100 / 56.  0.100
+  libavcodec     58.  1.100 / 58.  1.100
+  libavformat    58.  0.102 / 58.  0.102
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7.  0.101 /  7.  0.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.100 /  3.  0.100
+  libpostproc    55.  0.100 / 55.  0.100
+[h264 @ 0000024c370c3140] co located POCs unavailable
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './testdata/test.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 1970-01-01T00:00:00.000000Z
+  Duration: 00:00:06.17, start: 0.000000, bitrate: 1417 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 1276 kb/s, 30 fps, 30 tbr, 10000k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 131 kb/s (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : SoundHandler
+At least one output file must be specified
