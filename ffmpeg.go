@@ -3,8 +3,8 @@ package gffmpeg
 
 import (
 	"bytes"
-	"dgo-lib/libs/dfile"
 	"fmt"
+	"os"
 	"os/exec"
 	"regexp"
 	"strconv"
@@ -43,7 +43,7 @@ type ffmpeg struct {
 }
 
 func NewGFFmpeg(binPath string) (GFFmpeg,error) {
-	_,err:=dfile.IsFileExist(binPath)
+	_,err:=os.Stat(binPath)
 	if err!=nil {
 		return nil,err
 	}
